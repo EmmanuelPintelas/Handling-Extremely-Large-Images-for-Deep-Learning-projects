@@ -1,5 +1,5 @@
 # Handling-Extremely-Large-Images
-Loading Extremely Large Images e.g. 100000x100000 is an issue when need to load them, preprocess, and train a Deep Learning model. 
+Loading Extremely Large Images e.g. 100.000 x 100.000 is an issue when need to load them, preprocess, and train a Deep Learning model. 
 Also, common resizing tools like cv2 lead to huge info loss being slow and unable to resize in such scales. 
 In this project we aim to provide a viable solution and adress these issues, accelerating the resizing procedure time for such images.
 
