@@ -9,10 +9,10 @@ We provide the following open slide functions: **Slide_Open_Resize**, **Slide_Cu
      
 **Slide_Open_Resize**
 
-                Has two modes. If the loading is image is too large for memory issues,
+                Has two modes. If the loading  image is too large for memory issues,
                 it opens it with slide mode. Then, it automatically resizes every loaded image region tile,
-                and final it conatenates all resized tiles together building the final image. If image has a viable size,
-                it opens it, in classic cv2 mode.
+                and final it conatenates all resized tiles together building the final image. If the input image 
+                has a viable size, then it opens with classic cv2 mode.
                 
 **Slide_Cut_off_Resize**
 
