@@ -5,16 +5,15 @@ In this project we aim to provide a viable solution and adress these issues, acc
 
 
 We provide the following open slide functions:
+
 **Slide_Open_Resize**
         
 **Slide_Cut_off_Resize**
         
 **Optimized_Slide_Pack**
 
-
      
 **Slide_Open_Resize**
-
 Has two modes:
                 If the loading is image is too large for memory issues,
                 it opens it with slide mode. Then, it automatically resizes every loaded image region tile,
@@ -22,7 +21,6 @@ Has two modes:
                 it opens it, in classic cv2 mode.
                 
 **Slide_Cut_off_Resize**
-
                 -Always uses slide mode. The main difference, comparing to previous approach, via our blank_tile_detector, it can toss out useless blank areas
                 and thus the important areas/objects of the final image will have higher resolution!
                 -However, the distances and the initial locations between each object of the initial images are lost.
