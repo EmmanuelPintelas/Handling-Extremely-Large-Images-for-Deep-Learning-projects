@@ -6,9 +6,7 @@ In this project we aim to provide a viable solution and adress these issues, acc
 
 We provide the following open slide functions:
         **Slide_Open_Resize**
-        
         **Slide_Cut_off_Resize**
-        
         **Optimized_Slide_Pack**
         
      
