@@ -98,14 +98,6 @@ def blank_tile_detector (tile, r):
 # This can be a slight information loss, if want to use the extracted image into a CNN model. 
 # Thus, we extract also an optional "blank_map" for further use, which contain the locations of objects in a map form.
 
-# my function:
-#             Cut_off_Resize
-# Comparing to previous approach, via our blank_tile_detector, it can toss out useless blank areas
-# and thus the important areas/objects of the final image will have higher resolution!
-# However, the distances and the initial locations between each object of the initial images are lost.
-# This can be a slight information loss, if want to use the extracted image into a CNN model. 
-# Thus, we extract also an optional "blank_map" for further use, which contain the locations of objects in a map form.
-
 def Slide_Cut_off_Resize(path_image):
     
     im_data = OpenSlide(path_image)
@@ -181,7 +173,7 @@ def Slide_Cut_off_Resize(path_image):
     del im_data
     gc.collect()   
     
-    report_gpu()
+    ###report_gpu()
     
     return image_cut_off, blank_map
 
