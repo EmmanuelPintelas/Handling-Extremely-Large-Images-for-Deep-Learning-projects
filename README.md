@@ -6,7 +6,7 @@ The image examples were taken from:
 https://www.kaggle.com/competitions/mayo-clinic-strip-ai/data
 
 
-We provide the following open slide functions: **Slide_Open_Resize**, **Slide_Cut_off_Resize**, **Optimized_Slide_Pack**.
+We provide the following open slide functions: **Slide_Open_Resize**, **Slide_Cut_off_Resize**, **Optimized_Slide_Pack**, **Most_Informative_Tiles_Generator**.
 
      
 **Slide_Open_Resize**
