@@ -39,3 +39,9 @@ We provide the following open slide functions: **Slide_Open_Resize**, **Slide_Cu
                 Finally, it can also act (by some minor modifications), 
                 as an _intelligent random crop generator for huge initial images, for data augmentation purposes, 
                 since it will only add random crops of valuable dense object areas.
+                
+**Most_Informative_Tiles_Generator** 
+
+                Given a large image, we extract the four most informative tiles.
+                This approach can help a DL model to focus on local informative areas with much high resolution,
+                comparing if we fed it with the initial image.
